@@ -1,11 +1,10 @@
 #registrations_new {
 $prepifycolor: #338aaa;
-$chairaccent: #233159;
+$brightaccent: #2BA6CB;
 $darkcolor: darken($prepifycolor, 40%);
 $lightcolor: lighten($prepifycolor, 20%);
 
-background-color: $prepifycolor;
-background-image: url("school_logo.jpg");
+background-image: url("library.jpg");
 background-repeat: no-repeat;
 background-size: 100% auto;
 
@@ -55,54 +54,6 @@ background-size: 100% auto;
 			text-align: center;
 		}
 
-
-	}
-
-	.bottom {
-		text-align: center;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
-		height: 20px;
-		width: 800px;
-	
-
-		.button {
-			background-color: #2BA6CB;
-			color: white;
-			width: 200px;
-			border: 10px solid white;
-			border-radius:15px;
-			font-family: 'Sansita One', cursive;
-			font-size: 2em;
-			padding: 5px;
-		}
-
-		.button:hover {
-			background-color: #17596b;
-		}
-
-	}
-
-	.below {
-		background-color: white;
-		width: 90%;
-		height: 700px;
-
-
-		p {
-			font-size: 1.75em;
-			line-height: 1.9em;
-			color: $chairaccent;
-			font-family: 'Tinos', sans-serif;
-		}
-
-		h2 {
-			font-size: 5em;
-			font-family: 'Sansita One';
-			text-align: center;
-			color: #2BA6CB;
-			margin: 0px; 
-		}
 
 	}
 
